@@ -55,6 +55,9 @@ public class CardTrickICE1 {
         {
             System.out.println("Card is not there");
         }
+        Card luckyCard=new Card();
+         luckyCard.setValue(6);
+            luckyCard.setSuits(2);
     }
     
 }
