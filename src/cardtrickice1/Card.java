@@ -41,7 +41,8 @@ public class Card
     /**
      * @param suits the suits to set
      */
-    public void setSuits(String suits) {
+    public void setSuits(int suitsindex) {
+        String suits=SUITS[suitsindex];
         this.suits = suits;
     }
    //number
